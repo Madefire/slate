@@ -11,7 +11,8 @@ toc_footers:
 
 includes:
   - authentication
-  - kittens
+  - app_config
+  - author_bio
   - errors
 
 search: true
