@@ -1,0 +1,23 @@
+machine:
+  services:
+    - docker
+  environment:
+    - DOCKER_TAG: "madefire:latest"
+
+dependencies:
+  override:
+    - docker info
+
+compile:
+  override:
+    - echo 'none.'
+
+test:
+  override:
+    - docker build --rm=false -t $DOCKER_TAG .
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bash deploy.sh
