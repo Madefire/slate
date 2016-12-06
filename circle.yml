@@ -1,0 +1,17 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker info
+
+test:
+  override:
+    - docker build --rm=false .
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bash deploy.sh
