@@ -11,7 +11,11 @@ toc_footers:
 
 includes:
   - authentication
-  - app_config_detail
+  - user_create
+  - user_signin
+  - user_detail
+  - user_password
+  - user_signout
   - app_config_detail
   - bio_list
   - bio_detail
@@ -40,7 +44,6 @@ includes:
   - series_interest_retrieve_destroy
   - share_create
   - sku_detail
-  - user_create
   - user_bundle_list
   - user_device_list_create
   - user_download_retrieve
@@ -49,12 +52,8 @@ includes:
   - user_rating_retrieve_update
   - user_reset_password
   - user_resend_verification
-  - user_signin
   - user_subscription_list
   - user_subscription_view
-  - user_detail
-  - user_password
-  - user_signout
   - video_detail
   - work_list
   - work_purchase_list
@@ -67,7 +66,6 @@ includes:
   - migration_status
   - source_detail
   - source_uploaded
-  - user_detail
   - errors
 
 search: true
