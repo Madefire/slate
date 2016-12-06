@@ -21,4 +21,6 @@ curl "https://api.madefire.com/api/authoring/source/<pk>/"
 
 Allowed Methods: GET, PUT, PATCH, OPTIONS
 
+Get or create a new asset source.
 
+Permissions are limited to admin users.

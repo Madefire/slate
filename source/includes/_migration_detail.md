@@ -21,4 +21,4 @@ curl "https://api.madefire.com/api/authoring/migration/<pk>/"
 
 Allowed Methods: GET, OPTIONS
 
-
+Retrieve an individual asset migration's data.

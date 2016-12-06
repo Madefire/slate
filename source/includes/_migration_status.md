@@ -21,4 +21,12 @@ curl "https://api.madefire.com/api/authoring/migration/<pk>/status/"
 
 Allowed Methods: GET, OPTIONS
 
+Retrieve the status of a migration by its ID.
 
+Possible statuses include:
+- PENDING
+- STARTED
+- SUCCESS
+- FAILURE
+- RETRY
+- REVOKED

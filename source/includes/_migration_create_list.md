@@ -21,4 +21,6 @@ curl "https://api.madefire.com/api/authoring/migration/"
 
 Allowed Methods: GET, POST, OPTIONS
 
+Create a migration.
 
+Must be an author user to perform this action.
