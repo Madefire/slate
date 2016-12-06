@@ -21,4 +21,4 @@ curl "https://api.madefire.com/api/reader/user/signin/"
 
 Allowed Methods: PUT, OPTIONS
 
-
+Authenticate as a given user, provided an `email` and `password` as data payload.

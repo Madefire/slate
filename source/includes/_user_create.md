@@ -21,4 +21,4 @@ curl "https://api.madefire.com/api/reader/user/"
 
 Allowed Methods: POST, PUT, OPTIONS
 
-
+Create a new user given an `email`, `name` and `password`.

@@ -21,4 +21,6 @@ curl "https://api.madefire.com/api/reader/user/<pk>/signout/"
 
 Allowed Methods: POST, OPTIONS
 
+Sign out an authenticated user with a body-less `POST` request.
 
+Returns a `204 NO CONTENT` response on success.

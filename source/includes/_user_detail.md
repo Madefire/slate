@@ -21,4 +21,6 @@ curl "https://api.madefire.com/api/authoring/user/<pk>/"
 
 Allowed Methods: GET, PUT, PATCH, OPTIONS
 
+Get or update an existing user's details.
 
+Permission is limited to the currently authenticated user.
