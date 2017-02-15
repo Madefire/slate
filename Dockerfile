@@ -1,4 +1,4 @@
-FROM ruby:onbuild
+FROM ruby:2.3.3-onbuild
 MAINTAINER Adrian Perez <adrian@adrianperez.org>
 
 RUN apt-get update && apt-get install -y nodejs \
