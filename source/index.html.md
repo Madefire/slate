@@ -40,9 +40,10 @@ includes:
 search: true
 ---
 
-# Madefire Web API
+# Introduction
 
-Welcome! This API enables development of applications on top of the [Madefire platform](http://www.madefire.com/motion-books/).
+Welcome! The Madefire API enables development of applications on top of the [Madefire platform](http://www.madefire.com/motion-books/)
+for distributing rich digital comic book experiences.
 
 You can view code examples in the area to the right, and you can switch the programming language of the examples with the tabs 
 in the top right.
