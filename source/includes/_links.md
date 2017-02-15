@@ -1,13 +1,15 @@
-# Category Detail
+# Links
+
+## Link Detail
 
 ```python
 import requests
 
-requests.get('https://api.madefire.com/api/reader/category/<pk>/')
+requests.get('https://api.madefire.com/api/reader/link/<pk>/')
 ```
 
 ```shell
-curl "https://api.madefire.com/api/reader/category/<pk>/"
+curl "https://api.madefire.com/api/reader/link/<pk>/"
 ```
 
 ```javascript
@@ -21,4 +23,4 @@ curl "https://api.madefire.com/api/reader/category/<pk>/"
 
 Allowed Methods: GET, OPTIONS
 
-Category detail view
+

@@ -1,13 +1,15 @@
-# Bundle List
+# Skus
+
+## Sku Detail
 
 ```python
 import requests
 
-requests.get('https://api.madefire.com/api/reader/bundle/')
+requests.get('https://api.madefire.com/api/reader/sku/<pk>/')
 ```
 
 ```shell
-curl "https://api.madefire.com/api/reader/bundle/"
+curl "https://api.madefire.com/api/reader/sku/<pk>/"
 ```
 
 ```javascript
@@ -21,4 +23,4 @@ curl "https://api.madefire.com/api/reader/bundle/"
 
 Allowed Methods: GET, OPTIONS
 
-Bundle list view
+

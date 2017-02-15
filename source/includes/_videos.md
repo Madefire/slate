@@ -1,13 +1,15 @@
-# Work Detail
+# Videos
+
+## Video Detail
 
 ```python
 import requests
 
-requests.get('https://api.madefire.com/api/reader/work/<pk>/')
+requests.get('https://api.madefire.com/api/reader/video/<pk>/')
 ```
 
 ```shell
-curl "https://api.madefire.com/api/reader/work/<pk>/"
+curl "https://api.madefire.com/api/reader/video/<pk>/"
 ```
 
 ```javascript
@@ -21,4 +23,4 @@ curl "https://api.madefire.com/api/reader/work/<pk>/"
 
 Allowed Methods: GET, OPTIONS
 
-Retrieve details about a work.
+

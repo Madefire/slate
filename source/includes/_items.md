@@ -1,13 +1,15 @@
-# Bio Detail
+# Items
+
+## Item List
 
 ```python
 import requests
 
-requests.get('https://api.madefire.com/api/reader/bio/<pk>/')
+requests.get('https://api.madefire.com/api/reader/item/')
 ```
 
 ```shell
-curl "https://api.madefire.com/api/reader/bio/<pk>/"
+curl "https://api.madefire.com/api/reader/item/"
 ```
 
 ```javascript
@@ -21,4 +23,4 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/"
 
 Allowed Methods: GET, OPTIONS
 
-Biography detail view (read-only)
+

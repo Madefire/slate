@@ -1,4 +1,6 @@
-# Cart Detail
+# Cart
+
+## Shopping Cart Detail
 
 ```python
 import requests
