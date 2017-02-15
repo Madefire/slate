@@ -40,11 +40,9 @@ includes:
 search: true
 ---
 
-# Introduction
+# Madefire Web API
 
-Welcome to the Madefire API! You can use our API to access our [motionbook](http://www.madefire.com/motion-books/) resources.
+Welcome! This API enables development of applications on top of the [Madefire platform](http://www.madefire.com/motion-books/).
 
-You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
-
-All API requests are made to the `https://api.madefire.com/` hostname.
-
+You can view code examples in the area to the right, and you can switch the programming language of the examples with the tabs 
+in the top right.
