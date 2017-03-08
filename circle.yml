@@ -5,6 +5,9 @@ machine:
     DOCKER_TAG: "madefire:latest"
 
 dependencies:
+  pre:
+    - pip install awscli
+    - aws configure set preview.cloudfront true
   override:
     - docker info
 
