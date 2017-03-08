@@ -123,7 +123,7 @@ Retrieve a script for a work.
 
 It is important to hint at what size script is preferred.
 
-Here are possible options for the `size` query parameter:
+Here are possible options for the `size` query parameter (width x height in pixels):
 
 - 1080x1920
 - 858x6144
