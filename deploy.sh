@@ -19,4 +19,4 @@ docker run --rm \
     bundle exec middleman $BUILD_DIR --clean
 
 aws s3 cp --recursive $CIRCLE_ARTIFACTS/$BUILD_DIR/ s3://$S3_BUCKET/
-aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTR_ID --paths index.html
+aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTR_ID --paths /index.html
