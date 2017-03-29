@@ -130,13 +130,15 @@ Here are possible options for the `size` query parameter (width x height in pixe
 - 858x2048
 - 768x1024
 - 720x1280
-- 432x768
+- 432x768 \*
 - 320x568
 - 320x480
-- 180x240
+- 180x240 \*
 - web
 - preview
 - video
+
+\* Cover sizes
 
 ### Parameters
 
@@ -145,3 +147,4 @@ Key | Value | Effect
 encrypted | True, False (default: True) |
 size | See above | Preferred size dimension
 strategy | 'ceiling' or 'round' | the preferred strategy used for determining which script size to return (default: ceiling)
+include_cover_sizes | True or False | whether to allow "cover size" scripts to be included (default: False)
