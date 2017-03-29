@@ -144,3 +144,4 @@ Key | Value | Effect
 --- | ---- | -----
 encrypted | True, False (default: True) |
 size | See above | Preferred size dimension
+strategy | 'ceiling' or 'round' | the preferred strategy used for determining which script size to return (default: ceiling)
