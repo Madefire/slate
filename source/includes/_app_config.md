@@ -23,24 +23,24 @@ curl "https://api.madefire.com/api/reader/appconfig/<pk>/"
     "url_scheme": null,
     "default_language": "en",
     "onboarding": {},
-    "id": "5b67194f28584897",
+    "id": "ddd4de7e509e4e85",
     "webstore_enabled": false,
     "android_package_name": "a",
     "details": {},
-    "publisher_id": "p-8ab3d1a26b8a4fb3a71a7460b86f0039",
-    "updated": "2017-04-10T22:05:31.986Z",
+    "publisher_id": "p-d80df54587b841b8a85ee119228d67bd",
+    "updated": "2017-04-11T22:12:53.545Z",
     "description": null,
     "sku_prefix": "com.test.reader.",
     "release_date_ios": null,
     "release_date_windows": null,
-    "root_slug": "5b67194f28584897-faaf1e9314d0486e-storefront",
+    "root_slug": "ddd4de7e509e4e85-b78cb150a439418b-storefront",
     "bundle_id": "a",
     "release_date_android": null,
-    "created": "2017-04-10T22:05:31.986Z",
+    "created": "2017-04-11T22:12:53.545Z",
     "apple_id": null,
     "android_live": false,
     "store_domain": null,
-    "resource_uri": "/api/reader/appconfig/5b67194f28584897/"
+    "resource_uri": "/api/reader/appconfig/ddd4de7e509e4e85/"
 }
 ```
 
@@ -73,24 +73,24 @@ curl "https://api.madefire.com/api/reader/appversion/<pk>/"
     "url_scheme": null,
     "default_language": "en",
     "onboarding": {},
-    "id": "295174d35fee44f3",
+    "id": "647c7a72ba894850",
     "webstore_enabled": false,
     "android_package_name": "a",
     "details": {},
-    "publisher_id": "p-ca702e27eac9413ca43394a9b3ad6072",
-    "updated": "2017-04-10T22:05:32.178Z",
+    "publisher_id": "p-6a4ab8ddde26485b943c44c062bb4520",
+    "updated": "2017-04-11T22:12:53.766Z",
     "description": null,
     "sku_prefix": "com.test.reader.",
     "release_date_ios": null,
     "release_date_windows": null,
-    "root_slug": "295174d35fee44f3-77d3f51d4f6d40ef-storefront",
+    "root_slug": "647c7a72ba894850-67d8e543adce4ed3-storefront",
     "bundle_id": "a",
     "release_date_android": null,
-    "created": "2017-04-10T22:05:32.178Z",
+    "created": "2017-04-11T22:12:53.766Z",
     "apple_id": null,
     "android_live": false,
     "store_domain": null,
-    "resource_uri": "/api/reader/appconfig/295174d35fee44f3/"
+    "resource_uri": "/api/reader/appconfig/647c7a72ba894850/"
 }
 ```
 

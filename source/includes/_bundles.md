@@ -26,10 +26,10 @@ curl "https://api.madefire.com/api/reader/bundle/"
     "image_stack_cover_portrait": null,
     "full_name": "",
     "type": "bundle",
-    "id": "e-a2ff39a0c5fd40449fee6333d3e82b31",
+    "id": "e-d73dc7d11aec403caf5d376c92cca3bc",
     "image_stack_cover_feature": null,
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/bundle/7f64b5e4ce61417cb79b3bd832489711",
+    "web_resource_uri": "/#/bundle/9f2471ba8fbd4053b37c2de1a61d4f2a",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -46,20 +46,20 @@ curl "https://api.madefire.com/api/reader/bundle/"
     "sections": [],
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
     "image_stack_cover_landscape": null,
-    "updated": "2017-04-10T22:05:32.989936Z",
+    "updated": "2017-04-11T22:12:54.663134Z",
     "description": null,
     "price": null,
     "video_type": null,
     "paid": false,
     "active": false,
-    "slug": "7f64b5e4ce61417cb79b3bd832489711",
+    "slug": "9f2471ba8fbd4053b37c2de1a61d4f2a",
     "skus": [
-        "e_a2ff39a0c5fd40449fee6333d3e82b31"
+        "e_d73dc7d11aec403caf5d376c92cca3bc"
     ],
     "price_tier": null,
     "restrictions": null,
     "name": "",
-    "created": "2017-04-10T22:05:32.989995Z",
+    "created": "2017-04-11T22:12:54.663583Z",
     "cover_scripts": {},
     "cover": null,
     "web_landscape_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
@@ -70,7 +70,7 @@ curl "https://api.madefire.com/api/reader/bundle/"
         "feature": null,
         "landscape": null
     },
-    "resource_uri": "/api/reader/bundle/e-a2ff39a0c5fd40449fee6333d3e82b31/"
+    "resource_uri": "/api/reader/bundle/e-d73dc7d11aec403caf5d376c92cca3bc/"
 }
 ```
 
@@ -103,10 +103,10 @@ curl "https://api.madefire.com/api/reader/bundle/<pk>/"
     "image_stack_cover_portrait": null,
     "full_name": "",
     "type": "bundle",
-    "id": "e-82dfcd2c26404b90b5bf5d9691b3d9b0",
+    "id": "e-e8f5ed2d85204fa38aeebb9e27f83d17",
     "image_stack_cover_feature": null,
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/bundle/098be52a37ab4bcbad82684e23461944",
+    "web_resource_uri": "/#/bundle/67d3085a10424e35a3d6cda807982b13",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -123,20 +123,20 @@ curl "https://api.madefire.com/api/reader/bundle/<pk>/"
     "sections": [],
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
     "image_stack_cover_landscape": null,
-    "updated": "2017-04-10T22:05:33.146796Z",
+    "updated": "2017-04-11T22:12:54.855408Z",
     "description": null,
     "price": null,
     "video_type": null,
     "paid": false,
     "active": false,
-    "slug": "098be52a37ab4bcbad82684e23461944",
+    "slug": "67d3085a10424e35a3d6cda807982b13",
     "skus": [
-        "e_82dfcd2c26404b90b5bf5d9691b3d9b0"
+        "e_e8f5ed2d85204fa38aeebb9e27f83d17"
     ],
     "price_tier": null,
     "restrictions": null,
     "name": "",
-    "created": "2017-04-10T22:05:33.146878Z",
+    "created": "2017-04-11T22:12:54.855560Z",
     "cover_scripts": {},
     "cover": null,
     "web_landscape_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
@@ -147,7 +147,7 @@ curl "https://api.madefire.com/api/reader/bundle/<pk>/"
         "feature": null,
         "landscape": null
     },
-    "resource_uri": "/api/reader/bundle/e-82dfcd2c26404b90b5bf5d9691b3d9b0/"
+    "resource_uri": "/api/reader/bundle/e-e8f5ed2d85204fa38aeebb9e27f83d17/"
 }
 ```
 
@@ -173,7 +173,7 @@ curl "https://api.madefire.com/api/reader/user/bundle/"
 
 ```json
 {
-    "bundle_id": "e-7eb76d83bb63461590ecb3de834eef5e"
+    "bundle_id": "e-fc7027a791c549e4be16e411dd52145f"
 }
 ```
 

@@ -18,7 +18,10 @@ curl "https://api.madefire.com/api/reader/cart/"
 > The above command returns JSON structured like this:
 
 ```json
-{}
+{
+    "plan_ids": [],
+    "item_ids": []
+}
 ```
 
 Allowed Methods: GET, OPTIONS

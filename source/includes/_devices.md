@@ -18,7 +18,15 @@ curl "https://api.madefire.com/api/reader/user/device/"
 > The above command returns JSON structured like this:
 
 ```json
-{}
+{
+    "updated": "2017-04-11T22:12:59.017187Z",
+    "language": "en-us",
+    "created": "2017-04-11T22:12:59.017256Z",
+    "app": "63b405160e014bf0",
+    "timezone_utcoffset": -8,
+    "type": 0,
+    "id": "2e073d338c4348bd81961291532d5f56"
+}
 ```
 
 Allowed Methods: GET, POST, OPTIONS
