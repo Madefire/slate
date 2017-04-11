@@ -18,7 +18,9 @@ curl "https://api.madefire.com/api/reader/geo/"
 > The above command returns JSON structured like this:
 
 ```json
-{}
+{
+    "country": "US"
+}
 ```
 
 Allowed Methods: GET, OPTIONS
