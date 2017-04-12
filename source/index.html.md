@@ -33,6 +33,7 @@ includes:
   - geo
   - sources
   - migrations
+  - coupons
   - sharing
   - search
   - errors
