@@ -19,13 +19,13 @@ curl "https://api.madefire.com/api/reader/user/device/"
 
 ```json
 {
-    "updated": "2017-04-11T22:12:59.017187Z",
+    "updated": "2017-05-11T20:49:25.963499Z",
     "language": "en-us",
-    "created": "2017-04-11T22:12:59.017256Z",
-    "app": "63b405160e014bf0",
+    "created": "2017-05-11T20:49:25.963579Z",
+    "app": "93ab045a993643db",
     "timezone_utcoffset": -8,
     "type": 0,
-    "id": "2e073d338c4348bd81961291532d5f56"
+    "id": "05d78c44c1ce4dd7ad525a23b0ce9354"
 }
 ```
 

@@ -19,7 +19,7 @@ curl "https://api.madefire.com/api/reader/user/series-interest/"
 
 ```json
 {
-    "series_id": "719f97a4bda74fb6bc0279b9afe7d104"
+    "series_id": "5dc67b217e5f4d31a7221987aeac2588"
 }
 ```
 
@@ -45,7 +45,7 @@ curl "https://api.madefire.com/api/reader/user/series-interest/<series_id>/"
 
 ```json
 {
-    "series_id": "179a1278f7b242a286b63cc98650ecfd"
+    "series_id": "74ce0d25c22a43e7a950b246d6e0c53a"
 }
 ```
 

@@ -27,9 +27,9 @@ curl "https://api.madefire.com/api/reader/series/<pk>/"
     "full_name": "",
     "duration": null,
     "rating_three_count": 0,
-    "id": "n-2b60aadbc9f947819b03233aac787dbf",
+    "id": "n-fcef8a90471a4b288964e463a08fd727",
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/series/353d52fa2ab042bd9db578d303504011",
+    "web_resource_uri": "/#/series/3ddd3668eba4434bb3be37749f16d5a5",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -54,7 +54,7 @@ curl "https://api.madefire.com/api/reader/series/<pk>/"
     "video_type": null,
     "badge": null,
     "paid": false,
-    "slug": "353d52fa2ab042bd9db578d303504011",
+    "slug": "3ddd3668eba4434bb3be37749f16d5a5",
     "price_tier": null,
     "restrictions": null,
     "rating_five_count": 0,
@@ -70,7 +70,7 @@ curl "https://api.madefire.com/api/reader/series/<pk>/"
         "landscape": null
     },
     "works": [],
-    "resource_uri": "/api/reader/series/n-2b60aadbc9f947819b03233aac787dbf/"
+    "resource_uri": "/api/reader/series/n-fcef8a90471a4b288964e463a08fd727/"
 }
 ```
 

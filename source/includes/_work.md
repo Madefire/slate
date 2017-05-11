@@ -26,10 +26,10 @@ curl "https://api.madefire.com/api/reader/work/"
     "full_name": "test - test",
     "duration": null,
     "sub_name": "test",
-    "id": "w-fcf4a3a37edf4ecdbe2097d848a3e4fe",
+    "id": "w-91186a409e7c4819a1c01d3211f713fe",
     "features": null,
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/work/fc61868bf54d42d1940022f81441c56f",
+    "web_resource_uri": "/#/work/d2247cb8b16045909f91f788a243bd83",
     "original_cover": null,
     "iap_google_sync_needed": false,
     "any_size": true,
@@ -55,19 +55,19 @@ curl "https://api.madefire.com/api/reader/work/"
     "right_to_left": false,
     "rating_avg": null,
     "video_type": null,
-    "released": "2017-04-11T22:13:02.449171Z",
+    "released": "2017-05-11T20:49:30.218686Z",
     "badge": null,
     "available_for_device": false,
     "preview_pages": null,
-    "slug": "fc61868bf54d42d1940022f81441c56f",
+    "slug": "d2247cb8b16045909f91f788a243bd83",
     "skus": [
-        "w_fcf4a3a37edf4ecdbe2097d848a3e4fe"
+        "w_91186a409e7c4819a1c01d3211f713fe"
     ],
     "price_tier": 1,
     "restrictions": null,
     "num_pages": null,
     "name": "test",
-    "created": "2017-04-11T22:13:02.447211Z",
+    "created": "2017-05-11T20:49:30.216297Z",
     "cover_scripts": {},
     "pages_to_skip": "",
     "cover": null,
@@ -79,7 +79,7 @@ curl "https://api.madefire.com/api/reader/work/"
         "feature": null,
         "landscape": null
     },
-    "resource_uri": "/api/reader/work/w-fcf4a3a37edf4ecdbe2097d848a3e4fe/"
+    "resource_uri": "/api/reader/work/w-91186a409e7c4819a1c01d3211f713fe/"
 }
 ```
 
@@ -110,9 +110,9 @@ curl "https://api.madefire.com/api/reader/work/purchased/"
     "web_price": 0.99,
     "full_name": "test - test",
     "duration": null,
-    "id": "w-ab29f3c29d604cc6ab8bcaed274ed674",
+    "id": "w-5b2ee11d5fad49daa05feb5d791a8929",
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/work/35b12f1860f34fd88e073f3d13250488",
+    "web_resource_uri": "/#/work/d52578d34b1c49c0a810a7f48ecdae4b",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -127,7 +127,7 @@ curl "https://api.madefire.com/api/reader/work/purchased/"
     },
     "type": "work",
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
-    "updated": "2017-04-11T22:13:02.795964Z",
+    "updated": "2017-05-11T20:49:30.727254Z",
     "sortable_name": "test test",
     "description": "It was the best of times, it was the worst of times...",
     "price": 0.99,
@@ -135,11 +135,11 @@ curl "https://api.madefire.com/api/reader/work/purchased/"
     "series_id": null,
     "badge": null,
     "paid": false,
-    "slug": "35b12f1860f34fd88e073f3d13250488",
+    "slug": "d52578d34b1c49c0a810a7f48ecdae4b",
     "price_tier": 1,
     "restrictions": null,
     "name": "test",
-    "created": "2017-04-11T22:13:02.796034Z",
+    "created": "2017-05-11T20:49:30.727326Z",
     "cover_scripts": {},
     "cover": null,
     "web_landscape_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
@@ -149,13 +149,15 @@ curl "https://api.madefire.com/api/reader/work/purchased/"
         "feature": null,
         "landscape": null
     },
-    "resource_uri": "/api/reader/work/w-ab29f3c29d604cc6ab8bcaed274ed674/"
+    "resource_uri": "/api/reader/work/w-5b2ee11d5fad49daa05feb5d791a8929/"
 }
 ```
 
 Allowed Methods: GET, OPTIONS
 
+Retrieve all SKUs to which the currently authenticated user has entitlements.
 
+If not authenticated, returns none.
 ## Work List From Skus
 
 ```python
@@ -186,13 +188,13 @@ curl "https://api.madefire.com/api/reader/work/from-skus/"
     "full_name": "test - test",
     "duration": null,
     "sub_name": "test",
-    "id": "w-0093497b9f2d4446bfaade289cbf8d2e",
+    "id": "w-459d429df1714080b3ccd26388dc0575",
     "features": null,
     "original_aspect_ratio": null,
     "trailers": {
         "youtube": null
     },
-    "web_resource_uri": "/#/work/0d55cc369e4144f2b3ff05c30a4d1bba",
+    "web_resource_uri": "/#/work/5f9ec44e25d04d779799eeffd8652933",
     "original_cover": null,
     "any_size": true,
     "rating_stats": {
@@ -210,33 +212,33 @@ curl "https://api.madefire.com/api/reader/work/from-skus/"
     "preview": false,
     "type": "work",
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
-    "updated": "2017-04-11T22:13:03.066678Z",
+    "updated": "2017-05-11T20:49:31.096331Z",
     "sortable_name": "test test",
     "description": "It was the best of times, it was the worst of times...",
     "publisher": {
-        "id": "p-82af7c60eddd4ae68c2bb27cca4251f0",
-        "name": "<factory.faker.Faker object at 0x7f01305d8710> 03af9c68775b4794",
-        "short_name": "32155646046e47fb"
+        "id": "p-4f8f69bc9c174d2486d52790e15115ee",
+        "name": "4a6742e5457a4e88",
+        "short_name": "56e24f994a924016"
     },
     "price": 0.99,
     "right_to_left": false,
     "rating_avg": null,
     "video_type": null,
     "series_id": null,
-    "released": "2017-04-11T22:13:03.067834Z",
+    "released": "2017-05-11T20:49:31.099223Z",
     "badge": null,
     "available_for_device": false,
     "subscriptions": [],
     "preview_pages": null,
-    "slug": "0d55cc369e4144f2b3ff05c30a4d1bba",
+    "slug": "5f9ec44e25d04d779799eeffd8652933",
     "skus": [
-        "w_0093497b9f2d4446bfaade289cbf8d2e"
+        "w_459d429df1714080b3ccd26388dc0575"
     ],
     "price_tier": 1,
     "restrictions": null,
     "num_pages": null,
     "name": "test",
-    "created": "2017-04-11T22:13:03.066733Z",
+    "created": "2017-05-11T20:49:31.096431Z",
     "cover_scripts": {},
     "pages_to_skip": [],
     "cover": null,
@@ -255,7 +257,7 @@ curl "https://api.madefire.com/api/reader/work/from-skus/"
         "landscape": null
     },
     "next_work": null,
-    "resource_uri": "/api/reader/work/w-0093497b9f2d4446bfaade289cbf8d2e/"
+    "resource_uri": "/api/reader/work/w-459d429df1714080b3ccd26388dc0575/"
 }
 ```
 
@@ -292,13 +294,13 @@ curl "https://api.madefire.com/api/reader/work/<pk>/"
     "full_name": "test - test",
     "duration": null,
     "sub_name": "test",
-    "id": "w-17d1796fc86d41c1bbd3755a6d21a63e",
+    "id": "w-a37e9e3be74a4df0a9f35f9c712093b8",
     "features": null,
     "original_aspect_ratio": null,
     "trailers": {
         "youtube": null
     },
-    "web_resource_uri": "/#/work/90d7951781a543c49f2d26b77eec08b0",
+    "web_resource_uri": "/#/work/04e17e21ade7485381802bc8e9557c85",
     "original_cover": null,
     "any_size": true,
     "rating_stats": {
@@ -316,33 +318,33 @@ curl "https://api.madefire.com/api/reader/work/<pk>/"
     "preview": false,
     "type": "work",
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
-    "updated": "2017-04-11T22:13:03.417836Z",
+    "updated": "2017-05-11T20:49:31.521265Z",
     "sortable_name": "test test",
     "description": "It was the best of times, it was the worst of times...",
     "publisher": {
-        "id": "p-c48aa214768e4c068251dd808a864e9e",
-        "name": "<factory.faker.Faker object at 0x7f0130607950> 0b98e3799a874072",
-        "short_name": "ba45d7890f01475f"
+        "id": "p-77a95c60e1174874b8a8c21eaa9efe64",
+        "name": "a320c489a27349b2",
+        "short_name": "7cbc0d154b2f4c91"
     },
     "price": 0.99,
     "right_to_left": false,
     "rating_avg": null,
     "video_type": null,
     "series_id": null,
-    "released": "2017-04-11T22:13:03.418988Z",
+    "released": "2017-05-11T20:49:31.523223Z",
     "badge": null,
     "available_for_device": false,
     "subscriptions": [],
     "preview_pages": null,
-    "slug": "90d7951781a543c49f2d26b77eec08b0",
+    "slug": "04e17e21ade7485381802bc8e9557c85",
     "skus": [
-        "w_17d1796fc86d41c1bbd3755a6d21a63e"
+        "w_a37e9e3be74a4df0a9f35f9c712093b8"
     ],
     "price_tier": 1,
     "restrictions": null,
     "num_pages": null,
     "name": "test",
-    "created": "2017-04-11T22:13:03.417878Z",
+    "created": "2017-05-11T20:49:31.521478Z",
     "cover_scripts": {},
     "pages_to_skip": [],
     "cover": null,
@@ -361,7 +363,7 @@ curl "https://api.madefire.com/api/reader/work/<pk>/"
         "landscape": null
     },
     "next_work": null,
-    "resource_uri": "/api/reader/work/w-17d1796fc86d41c1bbd3755a6d21a63e/"
+    "resource_uri": "/api/reader/work/w-a37e9e3be74a4df0a9f35f9c712093b8/"
 }
 ```
 
