@@ -1,15 +1,53 @@
 # Coupons
 
+## Coupon Campaign Detail
+
+```python
+import requests
+
+requests.get('https://api.madefire.com/api/coupon/campaign/<slug>/')
+```
+
+```shell
+curl "https://api.madefire.com/api/coupon/campaign/<slug>/"
+```
+
+```javascript
+```
+
+> The above command returns JSON structured like this:
+
+```json
+{
+    "updated": "2017-05-11T20:49:28.210389Z",
+    "name": "Test 0",
+    "created": "2017-05-11T20:49:28.210443Z",
+    "expiration_date": null,
+    "app": "fb80eaf4aa2d489d",
+    "bundle": "e-728bd9a8725d4e858103a1a76503d364",
+    "id": 1,
+    "generated": false,
+    "number_of_characters": 4,
+    "active": true,
+    "activation_date": null,
+    "slug": "test-0",
+    "max_number_of_codes": null
+}
+```
+
+Allowed Methods: GET, OPTIONS
+
+Retrieve details about a coupon campaign by its slug.
 ## Redeem Coupon View
 
 ```python
 import requests
 
-requests.get('https://api.madefire.com/api/reader/user/redemption/')
+requests.get('https://api.madefire.com/api/coupon/campaign/<slug>/redemption/')
 ```
 
 ```shell
-curl "https://api.madefire.com/api/reader/user/redemption/"
+curl "https://api.madefire.com/api/coupon/campaign/<slug>/redemption/"
 ```
 
 ```javascript
@@ -20,18 +58,18 @@ curl "https://api.madefire.com/api/reader/user/redemption/"
 ```json
 {
     "groups": [],
-    "updated": "2017-04-12T21:41:06.580862Z",
-    "name": "Kathy Harmon",
-    "created": "2017-04-12T21:41:06.580893Z",
+    "updated": "2017-05-11T20:49:28.324228Z",
+    "name": "Frank Molina",
+    "created": "2017-05-11T20:49:28.324258Z",
     "is_active": true,
     "first_app": null,
     "ok_to_email": true,
-    "email": "christinesullivan@gmail.com",
+    "email": "gina96@allen.com",
     "is_staff": false,
-    "last_login": "2017-04-12T21:41:06.565206Z",
+    "last_login": "2017-05-11T20:49:28.315467Z",
     "comped_apps": "",
     "is_author": false,
-    "id": "u-4c882697c127424d9e1310518f9e12bb"
+    "id": "u-53c8e386be2445aea1c13e178effb8c7"
 }
 ```
 
@@ -39,10 +77,10 @@ Allowed Methods: POST, OPTIONS
 
 Provided:
 
-- a name
-- an email address
-- an un-redeemed coupon code
-- an [application configuration](#app-config) id
+- name
+- email
+- password
+- code
 
 The following will occur:
 

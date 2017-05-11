@@ -23,10 +23,10 @@ curl "https://api.madefire.com/api/reader/subscription/<pk>/"
     "web_resource_uri": null,
     "series": [],
     "description": "N/A",
-    "app_id": "885986f6229040a5",
+    "app_id": "bee8ff6ba2a04b26",
     "user_subscription": null,
     "name": "N/A",
-    "id": "43aab6a6f66f4bf0b6683f22924e6962",
+    "id": "407496a5a79d480a89176d945bec3d99",
     "web_portrait_cover": null,
     "size": 12
 }
@@ -54,7 +54,7 @@ curl "https://api.madefire.com/api/reader/user/subscription/"
 
 ```json
 {
-    "sku": "16079d8f79e8410c9679836c7ce142d9",
+    "sku": "bb530d34d4534fb98298f303bfe2c684",
     "name": "N/A",
     "expires_localtime": "Dec. 31, 1969, 4 p.m. (PST)",
     "canceled": false,
@@ -63,19 +63,19 @@ curl "https://api.madefire.com/api/reader/user/subscription/"
     "state": "owned-invalid",
     "is_valid": false,
     "plan": {
-        "id": "0907fe800c28432bb3276b9960ed00a5",
+        "id": "9965cf221b94456189003cb021561574",
         "interval": "Month",
         "monthly_price": null,
         "change_plan_translation": "You will be billed $0.9899999999999999911182158029987476766109466552734375 USD every Month.",
         "next_plan": null,
         "stripe_plan_id": "12345",
-        "sku": "16079d8f79e8410c9679836c7ce142d9",
+        "sku": "bb530d34d4534fb98298f303bfe2c684",
         "active": false,
         "web_price": "0.99",
-        "subscription": "15891fba8239438a9a6ce9b4fcb767d0"
+        "subscription": "b04e1128746b4fb8a1ba1d1285f242e3"
     },
-    "subscription": "1d36e98439724f9bb04a34ba1ecc7878",
-    "id": "8da18939a5264e58ab0af72512f845f5",
+    "subscription": "3090705d43594fa4be21211f34ae958d",
+    "id": "61ce2a71102f43cabcfd10a2a97bc1ca",
     "stripe_sub_id": null
 }
 ```
@@ -102,7 +102,7 @@ curl "https://api.madefire.com/api/reader/user/subscription/<pk>/"
 
 ```json
 {
-    "sku": "a9e4262878f34dd7b4e28e18dee8b347",
+    "sku": "cee4d2c1328044fe802aa53c15c32a8f",
     "name": "N/A",
     "expires_localtime": "Dec. 31, 1969, 4 p.m. (PST)",
     "canceled": false,
@@ -111,19 +111,19 @@ curl "https://api.madefire.com/api/reader/user/subscription/<pk>/"
     "state": "owned-invalid",
     "is_valid": false,
     "plan": {
-        "id": "87a7dce7df8741c39a703f8820056470",
+        "id": "7acfbd390df846c09be52f97f20e67b5",
         "interval": "Month",
         "monthly_price": null,
         "change_plan_translation": "You will be billed $0.9899999999999999911182158029987476766109466552734375 USD every Month.",
         "next_plan": null,
         "stripe_plan_id": "12345",
-        "sku": "a9e4262878f34dd7b4e28e18dee8b347",
+        "sku": "cee4d2c1328044fe802aa53c15c32a8f",
         "active": false,
         "web_price": "0.99",
-        "subscription": "d1d051a531a7459bb8b1f4b1740507ca"
+        "subscription": "0cb8845d64f84376b83c6668cb33c18d"
     },
-    "subscription": "465f48d2c02d4f29a6f28e957e4e4705",
-    "id": "ae4a7a5b85814ebca1b03aea09ff634b",
+    "subscription": "a718555a270744bab2ee336bc2753582",
+    "id": "32f8f897aced4609978ce65b8054f6e3",
     "stripe_sub_id": null
 }
 ```

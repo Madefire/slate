@@ -21,8 +21,8 @@ curl "https://api.madefire.com/api/reader/user/rating/"
 {
     "rating": 5,
     "app_id": "mf",
-    "work_id": "w-2000999c96d74b0aa735def61ffcb13e",
-    "id": "7e6d4745ef4149fa94d3ca539f4fc537"
+    "work_id": "w-c32ec3093c4640d7bd93c39655414b5b",
+    "id": "baee2b879f3140c381ca559888d56e82"
 }
 ```
 
@@ -50,8 +50,8 @@ curl "https://api.madefire.com/api/reader/user/rating/<work_id>/"
 {
     "rating": 5,
     "app_id": "mf",
-    "work_id": "w-0f82884e329c4758a036096b2cc7c409",
-    "id": "b419c28c025a4dd7b26400c6d4187b08"
+    "work_id": "w-f2855028aff14866832e423ea813167b",
+    "id": "648f6223a82246a6a650c5cf0eb2a5d6"
 }
 ```
 

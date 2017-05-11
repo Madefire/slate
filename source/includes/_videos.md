@@ -28,10 +28,10 @@ curl "https://api.madefire.com/api/reader/video/<pk>/"
     "full_name": "",
     "duration": null,
     "rating_three_count": 0,
-    "id": "v-b8682fcc0ee14ada85713ef4252596b2",
+    "id": "v-677615e0c11a4965b15d46a8f283ee74",
     "image_stack_cover_feature": null,
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/video/02d57427b699464489571ab9e334a8da",
+    "web_resource_uri": "/#/video/73afcb1e5aba4bbcbd6f1b0dc16f9b72",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -50,19 +50,19 @@ curl "https://api.madefire.com/api/reader/video/<pk>/"
     "type": "video",
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
     "image_stack_cover_landscape": null,
-    "updated": "2017-04-11T22:13:02.229336Z",
+    "updated": "2017-05-11T20:49:30.010070Z",
     "description": "It was the best of times, it was the worst of times...",
     "subscriptions": [],
     "price": 0.99,
     "rating_avg": null,
     "video_type": null,
     "paid": false,
-    "slug": "02d57427b699464489571ab9e334a8da",
+    "slug": "73afcb1e5aba4bbcbd6f1b0dc16f9b72",
     "price_tier": 1,
     "restrictions": null,
     "rating_five_count": 0,
     "name": "",
-    "created": "2017-04-11T22:13:02.229531Z",
+    "created": "2017-05-11T20:49:30.010125Z",
     "cover_scripts": {},
     "cover": null,
     "rating_four_count": 0,
@@ -73,7 +73,7 @@ curl "https://api.madefire.com/api/reader/video/<pk>/"
         "feature": null,
         "landscape": null
     },
-    "resource_uri": "/api/reader/video/v-b8682fcc0ee14ada85713ef4252596b2/"
+    "resource_uri": "/api/reader/video/v-677615e0c11a4965b15d46a8f283ee74/"
 }
 ```
 

@@ -19,8 +19,8 @@ curl "https://api.madefire.com/api/reader/category/"
 
 ```json
 {
-    "id": "c-6df643a1dc244f7da07eb835beeedfe4",
-    "slug": "347d3284b77e442e92b14bb52d84a693"
+    "id": "c-06dc12e8c2c64332b8257ab83b7689ad",
+    "slug": "24e9fc9d683e41039f62fd8d212c3af8"
 }
 ```
 
@@ -57,10 +57,10 @@ curl "https://api.madefire.com/api/reader/category/<pk>/"
     "full_name": "",
     "duration": null,
     "rating_three_count": 0,
-    "id": "c-125cbfbf35054349b0e958a6ed4bf214",
+    "id": "c-690f9bc4cb6649558fc44f69930ad425",
     "original_aspect_ratio": null,
     "layout": null,
-    "web_resource_uri": "/#/category/fe4fec8f11cb40ceb8a4c68332ed3b18",
+    "web_resource_uri": "/#/category/485d2a192964456e96317d5ae5fb29e9",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -77,21 +77,21 @@ curl "https://api.madefire.com/api/reader/category/<pk>/"
     "rating_count": 0,
     "type": "category",
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
-    "updated": "2017-04-11T22:12:55.468182Z",
+    "updated": "2017-05-11T20:49:21.774898Z",
     "sortable_name": " ",
     "description": "It was the best of times, it was the worst of times...",
-    "publisher": "p-36e83c9ded3c43fd85e145b94b202abb",
+    "publisher": "p-48286cb45f6e4286ae004ea81bc2fae4",
     "price": 0.99,
     "rating_avg": null,
     "video_type": null,
     "objects": [],
     "paid": false,
-    "slug": "fe4fec8f11cb40ceb8a4c68332ed3b18",
+    "slug": "485d2a192964456e96317d5ae5fb29e9",
     "price_tier": 1,
     "restrictions": null,
     "rating_five_count": 0,
     "name": "",
-    "created": "2017-04-11T22:12:55.468230Z",
+    "created": "2017-05-11T20:49:21.774951Z",
     "cover_scripts": {},
     "cover": null,
     "rating_four_count": 0,
@@ -102,7 +102,7 @@ curl "https://api.madefire.com/api/reader/category/<pk>/"
         "feature": null,
         "landscape": null
     },
-    "resource_uri": "/api/reader/category/c-125cbfbf35054349b0e958a6ed4bf214/"
+    "resource_uri": "/api/reader/category/c-690f9bc4cb6649558fc44f69930ad425/"
 }
 ```
 

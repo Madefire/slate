@@ -29,10 +29,10 @@ curl "https://api.madefire.com/api/reader/bio/"
     "full_name": "Bio 0",
     "duration": null,
     "rating_three_count": 0,
-    "id": "b-c6b9bc8a603841de",
+    "id": "b-91113b69ec1945c2",
     "image_stack_cover_feature": null,
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/bio/bio-0-3bb9ea",
+    "web_resource_uri": "/#/bio/bio-0",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -53,7 +53,7 @@ curl "https://api.madefire.com/api/reader/bio/"
     "image_stack_cover_portrait": null,
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
     "image_stack_cover_landscape": null,
-    "updated": "2017-04-11T22:12:53.873144Z",
+    "updated": "2017-05-11T20:49:19.874425Z",
     "sortable_name": "bio 0000000000000000000 ",
     "description": null,
     "publisher": null,
@@ -63,12 +63,12 @@ curl "https://api.madefire.com/api/reader/bio/"
     "badge": null,
     "facebook": null,
     "paid": false,
-    "slug": "bio-0-3bb9ea",
+    "slug": "bio-0",
     "price_tier": null,
     "restrictions": null,
     "rating_five_count": 0,
     "name": "Bio 0",
-    "created": "2017-04-11T22:12:53.873254Z",
+    "created": "2017-05-11T20:49:19.874521Z",
     "cover_scripts": {},
     "cover": null,
     "rating_four_count": 0,
@@ -81,7 +81,7 @@ curl "https://api.madefire.com/api/reader/bio/"
     },
     "headshot": {},
     "order": 0,
-    "resource_uri": "/api/reader/bio/b-c6b9bc8a603841de/"
+    "resource_uri": "/api/reader/bio/b-91113b69ec1945c2/"
 }
 ```
 
@@ -117,10 +117,10 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/"
     "full_name": "Bio 1",
     "duration": null,
     "rating_three_count": 0,
-    "id": "b-dd838ab2e51a41e6",
+    "id": "b-64da478fdbe54db3",
     "image_stack_cover_feature": null,
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/bio/bio-1-4eedf3",
+    "web_resource_uri": "/#/bio/bio-1",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -141,7 +141,7 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/"
     "image_stack_cover_portrait": null,
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
     "image_stack_cover_landscape": null,
-    "updated": "2017-04-11T22:12:54.027589Z",
+    "updated": "2017-05-11T20:49:19.995699Z",
     "sortable_name": "bio 0000000000000000001 ",
     "description": null,
     "publisher": null,
@@ -151,12 +151,12 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/"
     "badge": null,
     "facebook": null,
     "paid": false,
-    "slug": "bio-1-4eedf3",
+    "slug": "bio-1",
     "price_tier": null,
     "restrictions": null,
     "rating_five_count": 0,
     "name": "Bio 1",
-    "created": "2017-04-11T22:12:54.027694Z",
+    "created": "2017-05-11T20:49:19.995792Z",
     "cover_scripts": {},
     "cover": null,
     "rating_four_count": 0,
@@ -169,7 +169,7 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/"
     },
     "headshot": {},
     "order": 0,
-    "resource_uri": "/api/reader/bio/b-dd838ab2e51a41e6/"
+    "resource_uri": "/api/reader/bio/b-64da478fdbe54db3/"
 }
 ```
 
@@ -195,9 +195,9 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/roles/"
 
 ```json
 {
-    "updated": "2017-04-11T22:12:54.529124Z",
+    "updated": "2017-05-11T20:49:20.815996Z",
     "work": {
-        "id": "w-94b3bd31a64d44cf987095bae5b85db2",
+        "id": "w-340a933c12314976b1b8a109ab78cdc5",
         "cover": null,
         "web_landscape_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
         "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
@@ -206,8 +206,8 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/roles/"
         "original_aspect_ratio": null,
         "full_name": "test - test",
         "type": "work",
-        "resource_uri": "/api/reader/work/w-94b3bd31a64d44cf987095bae5b85db2/",
-        "web_resource_uri": "/#/work/28cc078bc372401e982fa847a828e9ce",
+        "resource_uri": "/api/reader/work/w-340a933c12314976b1b8a109ab78cdc5/",
+        "web_resource_uri": "/#/work/2ef93782b85c44a0b23d4561eee79456",
         "price": 0.99,
         "web_price": 0.99,
         "rating": null,
@@ -232,9 +232,9 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/roles/"
         },
         "price_tier": 1,
         "restrictions": null,
-        "updated": "2017-04-11T22:12:54.299843Z",
-        "created": "2017-04-11T22:12:54.299897Z",
-        "slug": "28cc078bc372401e982fa847a828e9ce",
+        "updated": "2017-05-11T20:49:20.279108Z",
+        "created": "2017-05-11T20:49:20.279181Z",
+        "slug": "2ef93782b85c44a0b23d4561eee79456",
         "name": "test",
         "sub_name": "test",
         "description": "It was the best of times, it was the worst of times...",
@@ -242,9 +242,9 @@ curl "https://api.madefire.com/api/reader/bio/<pk>/roles/"
         "badge": null,
         "sortable_name": "test test"
     },
-    "role": "604298179d1c40e2",
+    "role": "d4fd5f6aebbe49af",
     "order": 0,
-    "created": "2017-04-11T22:12:54.529180Z"
+    "created": "2017-05-11T20:49:20.816066Z"
 }
 ```
 

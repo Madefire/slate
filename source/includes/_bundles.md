@@ -21,15 +21,15 @@ curl "https://api.madefire.com/api/reader/bundle/"
 {
     "rating": null,
     "sub_name": null,
-    "web_price": null,
-    "price_level": null,
+    "web_price": 0.99,
+    "price_level": 1,
     "image_stack_cover_portrait": null,
     "full_name": "",
     "type": "bundle",
-    "id": "e-d73dc7d11aec403caf5d376c92cca3bc",
+    "id": "e-62b8d5e137b64125aa5d697628539039",
     "image_stack_cover_feature": null,
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/bundle/9f2471ba8fbd4053b37c2de1a61d4f2a",
+    "web_resource_uri": "/#/bundle/26e6090d6882401695eb9f8f6f46022d",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -46,20 +46,20 @@ curl "https://api.madefire.com/api/reader/bundle/"
     "sections": [],
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
     "image_stack_cover_landscape": null,
-    "updated": "2017-04-11T22:12:54.663134Z",
-    "description": null,
-    "price": null,
+    "updated": "2017-05-11T20:49:20.967904Z",
+    "description": "It was the best of times, it was the worst of times...",
+    "price": 0.99,
     "video_type": null,
     "paid": false,
     "active": false,
-    "slug": "9f2471ba8fbd4053b37c2de1a61d4f2a",
+    "slug": "26e6090d6882401695eb9f8f6f46022d",
     "skus": [
-        "e_d73dc7d11aec403caf5d376c92cca3bc"
+        "e_62b8d5e137b64125aa5d697628539039"
     ],
-    "price_tier": null,
+    "price_tier": 1,
     "restrictions": null,
     "name": "",
-    "created": "2017-04-11T22:12:54.663583Z",
+    "created": "2017-05-11T20:49:20.968004Z",
     "cover_scripts": {},
     "cover": null,
     "web_landscape_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
@@ -70,7 +70,7 @@ curl "https://api.madefire.com/api/reader/bundle/"
         "feature": null,
         "landscape": null
     },
-    "resource_uri": "/api/reader/bundle/e-d73dc7d11aec403caf5d376c92cca3bc/"
+    "resource_uri": "/api/reader/bundle/e-62b8d5e137b64125aa5d697628539039/"
 }
 ```
 
@@ -98,15 +98,15 @@ curl "https://api.madefire.com/api/reader/bundle/<pk>/"
 {
     "rating": null,
     "sub_name": null,
-    "web_price": null,
-    "price_level": null,
+    "web_price": 0.99,
+    "price_level": 1,
     "image_stack_cover_portrait": null,
     "full_name": "",
     "type": "bundle",
-    "id": "e-e8f5ed2d85204fa38aeebb9e27f83d17",
+    "id": "e-c4956117b3d24743a91dd415717e0407",
     "image_stack_cover_feature": null,
     "original_aspect_ratio": null,
-    "web_resource_uri": "/#/bundle/67d3085a10424e35a3d6cda807982b13",
+    "web_resource_uri": "/#/bundle/0112e776a4764267a0c5a8231768d307",
     "original_cover": null,
     "rating_stats": {
         "count": 0,
@@ -123,20 +123,20 @@ curl "https://api.madefire.com/api/reader/bundle/<pk>/"
     "sections": [],
     "web_portrait_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
     "image_stack_cover_landscape": null,
-    "updated": "2017-04-11T22:12:54.855408Z",
-    "description": null,
-    "price": null,
+    "updated": "2017-05-11T20:49:21.250535Z",
+    "description": "It was the best of times, it was the worst of times...",
+    "price": 0.99,
     "video_type": null,
     "paid": false,
     "active": false,
-    "slug": "67d3085a10424e35a3d6cda807982b13",
+    "slug": "0112e776a4764267a0c5a8231768d307",
     "skus": [
-        "e_e8f5ed2d85204fa38aeebb9e27f83d17"
+        "e_c4956117b3d24743a91dd415717e0407"
     ],
-    "price_tier": null,
+    "price_tier": 1,
     "restrictions": null,
     "name": "",
-    "created": "2017-04-11T22:12:54.855560Z",
+    "created": "2017-05-11T20:49:21.250670Z",
     "cover_scripts": {},
     "cover": null,
     "web_landscape_cover": "http://content.madefire.com/covers/image_not_found-180x240.jpg",
@@ -147,7 +147,7 @@ curl "https://api.madefire.com/api/reader/bundle/<pk>/"
         "feature": null,
         "landscape": null
     },
-    "resource_uri": "/api/reader/bundle/e-e8f5ed2d85204fa38aeebb9e27f83d17/"
+    "resource_uri": "/api/reader/bundle/e-c4956117b3d24743a91dd415717e0407/"
 }
 ```
 
@@ -173,7 +173,7 @@ curl "https://api.madefire.com/api/reader/user/bundle/"
 
 ```json
 {
-    "bundle_id": "e-fc7027a791c549e4be16e411dd52145f"
+    "bundle_id": "e-8683ab02998442bd8be2bb51c6edc315"
 }
 ```
 
