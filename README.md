@@ -21,7 +21,10 @@ $ pip install docker-compose
 
 ### Getting Set Up
 
+The following assumes that you have your AWS credentials set properly as environment variables.
+
 ```shell
+$ eval $(aws ecr get-login --no-include-email)
 $ docker-compose up
 ```
 
