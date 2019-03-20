@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    machine: true
+    environment:
+      DOCKER_TAG: "madefire:latest"
+    steps:
+      - checkout
+      - run: |
+          docker build --rm=false -t $DOCKER_TAG .
+          [ "${CIRCLE_BRANCH}" == "master" ] || exit 0
+          pip install --upgrade awscli
+          aws configure set preview.cloudfront true
+          bash deploy.sh
